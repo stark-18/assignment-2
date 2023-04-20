@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(181, 239, 239);background-image: url(https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f7d5d5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-image: url(https://images.pexels.com/photos/7135028/pexels-photo-7135028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+    color: rgb(226, 210, 95);
+    
+}
+h5{
+    color: beige;
+}
+label{
+    color: rgb(243, 209, 171);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    
+    margin-right: 10px;
+}
+
+/* button {
+    background-color: #8217c4;
+    color: #fff;
+    border:none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+} */
+button{
+    
+    background-color: rgb(47, 3, 18);
+    color:rgb(179, 219, 165);
+    border-radius: 8px;
+    cursor:pointer;
+    padding: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: ;
+    padding-top: ;
+
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+/* .input_container{
+    padding: 12px;
+    background-color: none;
+    border: black;
+    width: 5%;
+} */
